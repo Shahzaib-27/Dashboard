@@ -6,7 +6,7 @@ const SimpleRadarChart = () => {
   return (
     <div className="mb-10">
       <h1 className='bg-gray-700 text-white max-w-50 text-center p-2 rounded-lg'>RadarChart</h1>
-        <div className="bg-gray-300 max-w-[470px] w-full rounded-lg p-2">
+        <div className="bg-gray-300 max-w-117.5 w-full rounded-lg p-2">
             <RadarChart
               style={{ width: '100%', height: '100%', maxWidth: '500px', maxHeight: '80vh', 
                 aspectRatio: 1 }}

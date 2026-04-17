@@ -9,7 +9,7 @@ const ComposedChartWithAxisLabels = () => {
         Composed Chart
        </h1>
  
-     <div className='bg-gray-300 max-w-[470px] w-full rounded-lg p-2'>
+     <div className='bg-gray-300 max-w-117.5 w-full rounded-lg p-2'>
       <ComposedChart
         style={{ width: '100%', maxWidth: '700px', maxHeight: '70vh', aspectRatio: 1.618 }}
         responsive

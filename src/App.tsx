@@ -9,7 +9,7 @@ import Barchart from "./charts/Barchart"
 import Linechart from "./charts/Linechart"
 import PIechart from "./charts/PIechart"
 import RadarChart from "./charts/RaderChart"
-import StackedBarChart from "./charts/ComposedChart";
+import ComposedChart from "./charts/ComposedChart";
 
 const App = () => {
   return (
@@ -20,11 +20,11 @@ const App = () => {
 
         {/* Charts */}
         <Route path="/areachart" element={<AreaChart />} />
-        <Route path="/Barchart" element={<Barchart />} />
-        <Route path="/Linechart" element={<Linechart />} />
-        <Route path="/PIechart" element={<PIechart />} />
-        <Route path="/RadarChart" element={<RadarChart />} />
-        <Route path="/StackedBarChart" element={<StackedBarChart />} />
+        <Route path="/larchart" element={<Barchart />} />
+        <Route path="/linechart" element={<Linechart />} />
+        <Route path="/pIechart" element={<PIechart />} />
+        <Route path="/radarchart" element={<RadarChart />} />
+        <Route path="/composedchart" element={<ComposedChart />} />
 
 
       </Routes>
