@@ -14,7 +14,7 @@ export default function SimplePieChart() {
   return (
     <div className="mb-10">
       <h1 className='bg-black text-white max-w-50 text-center m-2 p-2 rounded-lg'>PieChart</h1>
-        <div className="bg-gray-300 max-w-[470px] h-79  w-full rounded-lg p-2">
+        <div className="bg-gray-300 max-w-117.5 h-79  w-full rounded-lg p-2">
           <ResponsiveContainer width="100%" height={300}>
             <PieChart>
               <Pie
@@ -25,7 +25,7 @@ export default function SimplePieChart() {
                 dataKey="value"
                 label
               >
-                {data.map((entry, index) => (
+                {data.map(( _, index) => (
                   <Cell key={index} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
