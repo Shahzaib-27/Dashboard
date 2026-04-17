@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import AreaChart from "../charts/AreaChart";
 import Barchart from "../charts/Barchart"
 import Linechart from "../charts/Linechart"
-// import PIechart from "../charts/PIechart"
+import PIechart from "../charts/PIechart"
 import RadarChart from "../charts/RaderChart"
 import StackedBarChart from "../charts/StackedBarChart";
 
@@ -27,7 +27,7 @@ const Dashboard = () => {
           <AreaChart />
           <Barchart />
           <Linechart />
-          {/* <PIechart /> */}
+          <PIechart />
           <RadarChart />
           <StackedBarChart />
         </div>
