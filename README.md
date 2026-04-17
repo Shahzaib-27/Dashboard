@@ -66,3 +66,6 @@ npm install i
 npm run dev<br>
 5️⃣ Build for production
 npm run build
+<br>
+project Deployment<br>
+Link : https://dashboard-six-olive-26.vercel.app/
