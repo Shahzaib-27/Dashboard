@@ -8,7 +8,7 @@ import Barchart from "../charts/Barchart"
 import Linechart from "../charts/Linechart"
 import PIechart from "../charts/PIechart"
 import RadarChart from "../charts/RaderChart"
-import StackedBarChart from "../charts/StackedBarChart";
+import ComposedChart from "../charts/ComposedChart";
 
 const Dashboard = () => {
   const [open, setOpen] = useState(true);
@@ -29,7 +29,7 @@ const Dashboard = () => {
           <Linechart />
           <PIechart />
           <RadarChart />
-          <StackedBarChart />
+          <ComposedChart />
         </div>
 
       </div>
