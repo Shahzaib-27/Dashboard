@@ -51,8 +51,8 @@ export const ComposedChartdata = [
 
 // LINE CHART 
 export const LineChartdata = [
-  { name: "Jan", users: 400 },
-  { name: "Feb", users: 800 },
+  { name: "Jan", users: 100 },
+  { name: "Feb", users: 300 },
   { name: "Mar", users: 650 },
   { name: "Apr", users: 900 },
   { name: "May", users: 1200 },
@@ -68,7 +68,7 @@ export const LineChartdata = [
 ];
 
 
-//  PIE CHART =
+//  PIE CHART 
 export const PieChartdata = [
   { name: "Group A", value: 400 },
   { name: "Group B", value: 300 },
@@ -77,9 +77,23 @@ export const PieChartdata = [
   { name: "Group E", value: 250 },
   { name: "Group F", value: 180 },
   { name: "Group G", value: 220 },
+  { name: "Group H", value: 150 },
+  { name: "Group I", value: 270 },
+  { name: "Group J", value: 320 },
 ];
 
-
+export const PieChartdataCOLORS = [
+  "#0088FE", // blue
+  "#00C49F", // green
+  "#FFBB28", // yellow
+  "#FF8042", // orange
+  "#8884D8", // purple
+  "#FF6B6B", // red
+  "#4ECDC4", // teal
+  "#A29BFE", // light purple
+  "#F368E0", // pink
+  "#1DD1A1", // mint green
+];
 // RADAR CHART 
 export const RadarChartdata = [
   { subject: 'Math', A: 120, B: 110, fullMark: 150 },

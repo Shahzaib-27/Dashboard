@@ -6,7 +6,7 @@ type Props = {
 
 const Navbar = ( { setOpen } :  Props) => {
   return ( 
-    <div className="bg-gray-700 text-white shadow p-4 flex justify-between items-center w-full">
+    <div className="bg-gray-700 text-white shadow p-4 flex justify-between items-center w-full ">
       <h2 className="text-lg font-semibold">Dashboard</h2>
 
       <Menu

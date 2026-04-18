@@ -1,5 +1,5 @@
 import {BarChart, Bar,XAxis,YAxis, Tooltip, ResponsiveContainer} from "recharts"
-import  { BarChartdata } from '../data.ts';
+import  { BarChartdata } from '../Chartdata.ts';
 
 const TinyBarChart = () => {
   return (

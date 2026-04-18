@@ -1,9 +1,6 @@
-import {  PieChart,Pie,Cell,Tooltip,ResponsiveContainer,Legend} from "recharts";
-import  { PieChartdata } from '../data.ts';
-
-
-
-const PieChartdataCOLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
+import {  PieChart,Pie,Cell,Tooltip,ResponsiveContainer,Legend} from "recharts"
+import  { PieChartdata } from '../Chartdata.ts'
+import  { PieChartdataCOLORS } from '../Chartdata.ts'
 
 export default function SimplePieChart() {
   return (

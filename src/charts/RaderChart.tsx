@@ -1,5 +1,5 @@
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts';
-import  { RadarChartdata } from '../data.ts';
+import  { RadarChartdata } from '../Chartdata.ts';
 
 // #endregion
 const SimpleRadarChart = () => {

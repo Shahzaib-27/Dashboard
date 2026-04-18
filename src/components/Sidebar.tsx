@@ -18,7 +18,7 @@ const Sidebar = ({ open }: Props) => {
 
   return (
     <div
-      className={`bg-black text-white h-full  transition-all duration-300 ease-in-out overflow-hidden ${
+      className={`bg-black text-white h-full transition-all duration-200 ease-in-out overflow-auto ${
         open ? "w-70" : "w-0"
       }`}
     >
@@ -28,11 +28,12 @@ const Sidebar = ({ open }: Props) => {
       </h1>
 
       {/* Links */}
-      <ul className="p-3 space-y-2">
+      <ul className="p-2 space-y-2">
         {SidebarLinks.map((item, index) => (
           <li
             key={index}
-            className="rounded-lg hover:bg-white p-2 w-40 hover:text-black transition-all duration-200 ease-in-out"
+            className="rounded-lg hover:bg-white p-2 w-40 hover:text-black transition-all duration-200 
+            ease-in-out"
           >
             <Link
               to={item.path}

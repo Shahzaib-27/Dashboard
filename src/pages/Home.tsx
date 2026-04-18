@@ -7,18 +7,16 @@ import ComposedChart from "../charts/ComposedChart";
 
 const Dashboard = () => {
   return (
-    <div className="w-full h-full p-3 sm:p-4 md:p-6 overflow-auto">
+    <div className="w-full h-full p-3  overflow-hidden transition-all duration-200 ease-in-out">
       <div className="
-        grid  gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+        grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
         <AreaChart />
         <Barchart />
         <Linechart />
         <PIechart />
         <RadarChart />
         <ComposedChart />
-
       </div>
-
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import  { AreaChartdata } from '../data.ts';
+import  { AreaChartdata } from '../Chartdata.ts';
 
 const SimpleAreaChart = () => {
   return (

@@ -1,5 +1,5 @@
 import { ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import  { ComposedChartdata } from '../data.ts';
+import  { ComposedChartdata } from '../Chartdata.ts';
 
 // #endregion
 const ComposedChartWithAxisLabels = () => {
