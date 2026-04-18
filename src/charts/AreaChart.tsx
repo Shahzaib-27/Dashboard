@@ -8,8 +8,8 @@ const SimpleAreaChart = () => {
         AreaChart
       </h1>
 
-      <div className="bg-gray-300 max-w-117.5 w-full rounded-lg p-2">
-        <ResponsiveContainer width="100%" height={300}>
+      <div className="bg-gray-300 max-w-116 w-full  rounded-lg p-2 shadow-[0px_0px_10px_black]">
+        <ResponsiveContainer width="90%" height={450}>
           <AreaChart
             data={AreaChartdata}
             margin={{ top: 20, right: 0, left: 0, bottom: 0 }}

@@ -11,7 +11,7 @@ const Navbar = ( { setOpen } :  Props) => {
 
       <Menu
         className="w-6 h-6 cursor-pointer"
-        onClick={() => setOpen((prev) => !prev )}
+        onClick={() => setOpen((prev) => ! prev )}
       />
     </div>
   );
