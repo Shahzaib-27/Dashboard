@@ -15,7 +15,7 @@ import NavBar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <BrowserRouter>
