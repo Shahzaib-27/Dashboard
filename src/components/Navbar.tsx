@@ -1,18 +1,21 @@
 import { Menu } from "lucide-react";
 
 type Props = {
-  setOpen : React.Dispatch<React.SetStateAction<boolean>>;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Navbar = ( { setOpen } :  Props) => {
-  return ( 
-    <div className="bg-gray-700 text-white shadow p-4 flex justify-between items-center w-full ">
-      <h2 className="text-lg font-semibold">Dashboard</h2>
-
+const Navbar = ({ setOpen }: Props) => {
+  return (
+    <div
+      className="fixed left-0 top-0 z-100 flex w-full items-center bg-[#1c213a] p-4 text-white shadow ">
       <Menu
-        className="w-6 h-6 cursor-pointer"
-        onClick={() => setOpen((prev) => ! prev )}
+        className="h-6 w-6 cursor-pointer"
+        onClick={() => setOpen((prev) => !prev)}
       />
+
+      <h1 className="ml-3 text-lg font-semibold">
+        Dashboard
+      </h1>
     </div>
   );
 };

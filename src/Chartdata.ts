@@ -1,70 +1,105 @@
 //  AREA CHART 
 export const AreaChartdata = [
-  { name: 'Jan', uv: 4000, pv: 2400, amt: 2400 },
-  { name: 'Feb', uv: 3000, pv: 1398, amt: 2210 },
-  { name: 'Mar', uv: 2000, pv: 9800, amt: 2290 },
-  { name: 'Apr', uv: 2780, pv: 3908, amt: 2000 },
-  { name: 'May', uv: 1890, pv: 4800, amt: 2181 },
-  { name: 'Jun', uv: 2390, pv: 3800, amt: 2500 },
-  { name: 'Jul', uv: 3490, pv: 4300, amt: 2100 },
-  { name: 'Aug', uv: 4200, pv: 5200, amt: 3300 },
-  { name: 'Sep', uv: 3100, pv: 4100, amt: 2800 },
-  { name: 'Oct', uv: 2800, pv: 3900, amt: 2600 },
-  { name: 'Nov', uv: 3600, pv: 4700, amt: 3100 },
-  { name: 'Dec', uv: 5000, pv: 6000, amt: 4200 },
+  { time: "8 AM", value: 4.1 },
+  { time: "10 AM", value: 2.7 },
+  { time: "12 PM", value: 6.5 },
+  { time: "2 PM", value: 1.9 },
+  { time: "3 PM", value: 8.5 },
+  { time: "4 PM", value: 2.5 },
+  { time: "6 PM", value: 9.2 },
 ];
 
 
 // BAR CHART 
 export const BarChartdata = [
-  { name: "Page A", uv: 4000 },
-  { name: "Page B", uv: 3000 },
-  { name: "Page C", uv: 2000 },
-  { name: "Page D", uv: 2780 },
-  { name: "Page E", uv: 1890 },
-  { name: "Page F", uv: 2390 },
-  { name: "Page G", uv: 3490 },
-  { name: "Page H", uv: 4100 },
-  { name: "Page I", uv: 3200 },
-  { name: "Page J", uv: 2900 },
-  { name: "Page K", uv: 3700 },
-  { name: "Page L", uv: 4500 },
+  { day: "Mon", tickets: 42 },
+  { day: "Tue", tickets: 25 },
+  { day: "Wed", tickets: 55 },
+  { day: "Thu", tickets: 32 },
+  { day: "Fri", tickets: 75 },
+  { day: "Sat", tickets: 42 },
+  { day: "Sun", tickets: 70 },
 ];
 
 
 // COMPOSED CHART 
 export const ComposedChartdata = [
-  { name: 'Jan', uv: 590, pv: 800, amt: 1400 },
-  { name: 'Feb', uv: 868, pv: 967, amt: 1506 },
-  { name: 'Mar', uv: 1397, pv: 1098, amt: 989 },
-  { name: 'Apr', uv: 1480, pv: 1200, amt: 1228 },
-  { name: 'May', uv: 1520, pv: 1108, amt: 1100 },
-  { name: 'Jun', uv: 1400, pv: 680, amt: 1700 },
-  { name: 'Jul', uv: 1650, pv: 900, amt: 1900 },
-  { name: 'Aug', uv: 1800, pv: 1300, amt: 2100 },
-  { name: 'Sep', uv: 2000, pv: 1600, amt: 2300 },
-  { name: 'Oct', uv: 2200, pv: 1800, amt: 2500 },
-  { name: 'Nov', uv: 2400, pv: 2000, amt: 2700 },
-  { name: 'Dec', uv: 2600, pv: 2200, amt: 3000 },
+  { month: "Jan", created: 40, solved: 30, activity: 35 },
+  { month: "Feb", created: 55, solved: 42, activity: 48 },
+  { month: "Mar", created: 45, solved: 38, activity: 42 },
+  { month: "Apr", created: 70, solved: 55, activity: 62 },
+  { month: "May", created: 85, solved: 65, activity: 75 },
+  { month: "Jun", created: 60, solved: 52, activity: 58 },
+  { month: "Jul", created: 75, solved: 68, activity: 70 },
 ];
 
 
-// LINE CHART 
+
+// Donutchart data
+export const Donutchartdata = [
+  { name: "Sales", value: 45 },
+  { name: "Setup", value: 25 },
+  { name: "Bug", value: 18 },
+  { name: "Support", value: 20 },
+  { name: "Marketing", value: 15 },
+  { name: "Testing", value: 10 },
+  { name: "Development", value: 30 }, 
+];
+export const DonutcharttypeColors = [
+  "#1597E5", // Blue
+  "#155E85", // Dark Blue
+  "#20C4D4", // Aqua
+  "#64748B", // Gray
+  "#19D3AE", // Green
+  "#0EA5E9", // Sky Blue
+  "#1E6A91", // Light Dark Blue
+];
+
+
+// LINE CHART LineChartdata
 export const LineChartdata = [
-  { name: "Jan", users: 100 },
-  { name: "Feb", users: 300 },
-  { name: "Mar", users: 650 },
-  { name: "Apr", users: 900 },
-  { name: "May", users: 1200 },
-  { name: "Jun", users: 1100 },
-  { name: "Jul", users: 1500 },
-  { name: "Aug", users: 1700 },
-  { name: "Sep", users: 1400 },
-  { name: "Oct", users: 1800 },
-  { name: "Nov", users: 2000 },
-  { name: "Dec", users: 2200 },
-  { name: "Jan-Next", users: 2400 },
-  { name: "Feb-Next", users: 2600 },
+   {
+    name: 'Page A',
+    uv: 590,
+    pv: 800,
+    amt: 1400,
+    cnt: 490,
+  },
+  {
+    name: 'Page B',
+    uv: 868,
+    pv: 967,
+    amt: 1506,
+    cnt: 590,
+  },
+  {
+    name: 'Page C',
+    uv: 1397,
+    pv: 1098,
+    amt: 989,
+    cnt: 350,
+  },
+  {
+    name: 'Page D',
+    uv: 1480,
+    pv: 1200,
+    amt: 1228,
+    cnt: 480,
+  },
+  {
+    name: 'Page E',
+    uv: 1520,
+    pv: 1108,
+    amt: 1100,
+    cnt: 460,
+  },
+  {
+    name: 'Page F',
+    uv: 1400,
+    pv: 680,
+    amt: 1700,
+    cnt: 380,
+  },
 ];
 
 
@@ -73,35 +108,114 @@ export const PieChartdata = [
   { name: "Group A", value: 400 },
   { name: "Group B", value: 300 },
   { name: "Group C", value: 300 },
-  { name: "Group D", value: 200 },
-  { name: "Group E", value: 250 },
-  { name: "Group F", value: 180 },
-  { name: "Group G", value: 220 },
-  { name: "Group H", value: 150 },
-  { name: "Group I", value: 270 },
-  { name: "Group J", value: 320 },
+  { name: "Group D", value: 250 },
+  { name: "Group E", value: 220 },
+  { name: "Group F", value: 150 },
+  { name: "Group G", value: 270 },
+  { name: "Group H", value: 320 },
 ];
 
 export const PieChartdataCOLORS = [
-  "#0088FE", // blue
-  "#00C49F", // green
-  "#FFBB28", // yellow
-  "#FF8042", // orange
-  "#8884D8", // purple
-  "#FF6B6B", // red
-  "#4ECDC4", // teal
-  "#A29BFE", // light purple
-  "#F368E0", // pink
-  "#1DD1A1", // mint green
+  "#0088FE", // Blue
+  "#155E85", // Dark Blue
+  "#22C7D6", // Aqua  
+  "#64748B", // Gray
+  "#00C49F", // Green
+  "#075985", // Deep Blue
+  "#67E8F9", // Light Aqua
+  "#1DD1A1", // Bright Green
 ];
+
 // RADAR CHART 
 export const RadarChartdata = [
-  { subject: 'Math', A: 120, B: 110, fullMark: 150 },
-  { subject: 'Chinese', A: 98, B: 130, fullMark: 150 },
-  { subject: 'English', A: 86, B: 130, fullMark: 150 },
-  { subject: 'Geography', A: 99, B: 100, fullMark: 150 },
-  { subject: 'Physics', A: 85, B: 90, fullMark: 150 },
-  { subject: 'History', A: 65, B: 85, fullMark: 150 },
-  { subject: 'Computer', A: 140, B: 120, fullMark: 150 },
-  { subject: 'Chemistry', A: 110, B: 105, fullMark: 150 },
+ {
+    subject: "React",
+    Frontend: 90,
+    Backend: 60,
+    Database: 50,
+    DevOps: 40,
+    Testing: 75,
+    Security: 55,
+  },
+  {
+    subject: "TypeScript",
+    Frontend: 85,
+    Backend: 70,
+    Database: 55,
+    DevOps: 45,
+    Testing: 80,
+    Security: 60,
+  },
+  {
+    subject: "JavaScript",
+    Frontend: 90,
+    Backend: 75,
+    Database: 60,
+    DevOps: 50,
+    Testing: 85,
+    Security: 65,
+  },
+  {
+    subject: "CSS",
+    Frontend: 80,
+    Backend: 40,
+    Database: 30,
+    DevOps: 35,
+    Testing: 70,
+    Security: 45,
+  },
+  {
+    subject: "Tailwind",
+    Frontend: 85,
+    Backend: 35,
+    Database: 25,
+    DevOps: 30,
+    Testing: 75,
+    Security: 40,
+  },
+  {
+    subject: "Node.js",
+    Frontend: 55,
+    Backend: 90,
+    Database: 65,
+    DevOps: 70,
+    Testing: 80,
+    Security: 75,
+  },
+  {
+    subject: "Express",
+    Frontend: 50,
+    Backend: 85,
+    Database: 60,
+    DevOps: 65,
+    Testing: 75,
+    Security: 70,
+  },
+  {
+    subject: "PostgreSQL",
+    Frontend: 35,
+    Backend: 65,
+    Database: 95,
+    DevOps: 55,
+    Testing: 70,
+    Security: 80,
+  },
+  {
+    subject: "Prisma",
+    Frontend: 40,
+    Backend: 80,
+    Database: 90,
+    DevOps: 50,
+    Testing: 75,
+    Security: 70,
+  },
+  {
+    subject: "Docker",
+    Frontend: 30,
+    Backend: 65,
+    Database: 55,
+    DevOps: 95,
+    Testing: 80,
+    Security: 85,
+  },
 ];

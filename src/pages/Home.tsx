@@ -4,19 +4,48 @@ import Linechart from "../charts/Linechart";
 import PIechart from "../charts/PIechart";
 import RadarChart from "../charts/RaderChart";
 import ComposedChart from "../charts/ComposedChart";
+import Donutchart from "../charts/Donutchart";
+
+import { Calendar } from "../components/Calendar";
+import { Clock } from "../components/clock";
 
 const Dashboard = () => {
   return (
-    <div className="w-full h-full p-3  overflow-hidden transition-all duration-200 ease-in-out">
-      <div className="
-        grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-        <AreaChart />
-        <Barchart />
-        <Linechart />
-        <PIechart />
-        <RadarChart />
+    <div className="w-full p-4 mt-5 space-y-4">
+
+      {/* Clock */}
+      <div className="w-full mb-10">
+        <Clock />
+      </div>
+
+      {/* Tickets Overview */}
+      <div className="w-full">
         <ComposedChart />
       </div>
+
+      {/* Donut + Radar */}
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        <Donutchart />
+        <RadarChart />
+      </div>
+
+      {/* Bar Chart */}
+      <div className="w-full">
+        <Barchart />
+      </div>
+
+        <AreaChart />
+      {/* Remaining Charts */}
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        <Linechart />
+        <PIechart />
+      </div>
+
+      {/* Pie + Calendar */}
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 ">
+        <Calendar />
+      </div>
+
     </div>
   );
 };
