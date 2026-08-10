@@ -1,221 +1,333 @@
-//  AREA CHART 
+// ========================================
+// AREA CHART
+// ========================================
+
 export const AreaChartdata = [
-  { time: "8 AM", value: 4.1 },
-  { time: "10 AM", value: 2.7 },
-  { time: "12 PM", value: 6.5 },
-  { time: "2 PM", value: 1.9 },
-  { time: "3 PM", value: 8.5 },
-  { time: "4 PM", value: 2.5 },
-  { time: "6 PM", value: 9.2 },
+  { time: "8 AM", value: 18 },
+  { time: "9 AM", value: 24 },
+  { time: "10 AM", value: 31 },
+  { time: "11 AM", value: 38 },
+  { time: "12 PM", value: 42 },
+  { time: "1 PM", value: 35 },
+  { time: "2 PM", value: 47 },
+  { time: "3 PM", value: 55 },
+  { time: "4 PM", value: 51 },
+  { time: "5 PM", value: 63 },
+  { time: "6 PM", value: 58 },
+  { time: "7 PM", value: 46 },
 ];
 
 
-// BAR CHART 
+// ========================================
+// BAR CHART
+// ========================================
+
 export const BarChartdata = [
   { day: "Mon", tickets: 42 },
-  { day: "Tue", tickets: 25 },
+  { day: "Tue", tickets: 48 },
   { day: "Wed", tickets: 55 },
-  { day: "Thu", tickets: 32 },
-  { day: "Fri", tickets: 75 },
-  { day: "Sat", tickets: 42 },
-  { day: "Sun", tickets: 70 },
+  { day: "Thu", tickets: 51 },
+  { day: "Fri", tickets: 68 },
+  { day: "Sat", tickets: 39 },
+  { day: "Sun", tickets: 32 },
 ];
 
 
-// COMPOSED CHART 
+// ========================================
+// COMPOSED CHART
+// ========================================
+
 export const ComposedChartdata = [
-  { month: "Jan", created: 40, solved: 30, activity: 35 },
-  { month: "Feb", created: 55, solved: 42, activity: 48 },
-  { month: "Mar", created: 45, solved: 38, activity: 42 },
-  { month: "Apr", created: 70, solved: 55, activity: 62 },
-  { month: "May", created: 85, solved: 65, activity: 75 },
-  { month: "Jun", created: 60, solved: 52, activity: 58 },
-  { month: "Jul", created: 75, solved: 68, activity: 70 },
+  {
+    month: "Jan",
+    created: 128,
+    solved: 104,
+    activity: 116,
+  },
+  {
+    month: "Feb",
+    created: 145,
+    solved: 121,
+    activity: 132,
+  },
+  {
+    month: "Mar",
+    created: 138,
+    solved: 130,
+    activity: 135,
+  },
+  {
+    month: "Apr",
+    created: 172,
+    solved: 145,
+    activity: 158,
+  },
+  {
+    month: "May",
+    created: 198,
+    solved: 171,
+    activity: 184,
+  },
+  {
+    month: "Jun",
+    created: 185,
+    solved: 168,
+    activity: 176,
+  },
+  {
+    month: "Jul",
+    created: 216,
+    solved: 194,
+    activity: 205,
+  },
+  {
+    month: "Aug",
+    created: 232,
+    solved: 211,
+    activity: 222,
+  },
 ];
 
 
+// ========================================
+// DONUT CHART
+// ========================================
 
-// Donutchart data
 export const Donutchartdata = [
-  { name: "Sales", value: 45 },
-  { name: "Setup", value: 25 },
-  { name: "Bug", value: 18 },
-  { name: "Support", value: 20 },
-  { name: "Marketing", value: 15 },
-  { name: "Testing", value: 10 },
-  { name: "Development", value: 30 }, 
+  {
+    name: "Development",
+    value: 32,
+  },
+  {
+    name: "Support",
+    value: 24,
+  },
+  {
+    name: "Sales",
+    value: 18,
+  },
+  {
+    name: "Marketing",
+    value: 12,
+  },
+  {
+    name: "Testing",
+    value: 8,
+  },
+  {
+    name: "Bug Fixing",
+    value: 6,
+  },
 ];
+
 export const DonutcharttypeColors = [
-  "#1597E5", // Blue
-  "#155E85", // Dark Blue
-  "#20C4D4", // Aqua
-  "#64748B", // Gray
-  "#19D3AE", // Green
-  "#0EA5E9", // Sky Blue
-  "#1E6A91", // Light Dark Blue
+  "#1597E5",
+  "#155E85",
+  "#20C4D4",
+  "#64748B",
+  "#19D3AE",
+  "#0EA5E9",
 ];
 
 
-// LINE CHART LineChartdata
+// ========================================
+// LINE CHART
+// ========================================
+
 export const LineChartdata = [
-   {
-    name: 'Page A',
-    uv: 590,
-    pv: 800,
-    amt: 1400,
+  {
+    name: "Jan",
+    uv: 420,
+    pv: 380,
+    amt: 450,
+    cnt: 320,
+  },
+  {
+    name: "Feb",
+    uv: 480,
+    pv: 430,
+    amt: 510,
+    cnt: 360,
+  },
+  {
+    name: "Mar",
+    uv: 520,
+    pv: 470,
+    amt: 550,
+    cnt: 390,
+  },
+  {
+    name: "Apr",
+    uv: 610,
+    pv: 530,
+    amt: 620,
+    cnt: 440,
+  },
+  {
+    name: "May",
+    uv: 680,
+    pv: 610,
+    amt: 710,
     cnt: 490,
   },
   {
-    name: 'Page B',
-    uv: 868,
-    pv: 967,
-    amt: 1506,
-    cnt: 590,
+    name: "Jun",
+    uv: 640,
+    pv: 590,
+    amt: 680,
+    cnt: 470,
   },
   {
-    name: 'Page C',
-    uv: 1397,
-    pv: 1098,
-    amt: 989,
-    cnt: 350,
+    name: "Jul",
+    uv: 760,
+    pv: 690,
+    amt: 790,
+    cnt: 550,
   },
   {
-    name: 'Page D',
-    uv: 1480,
-    pv: 1200,
-    amt: 1228,
-    cnt: 480,
-  },
-  {
-    name: 'Page E',
-    uv: 1520,
-    pv: 1108,
-    amt: 1100,
-    cnt: 460,
-  },
-  {
-    name: 'Page F',
-    uv: 1400,
-    pv: 680,
-    amt: 1700,
-    cnt: 380,
+    name: "Aug",
+    uv: 820,
+    pv: 750,
+    amt: 850,
+    cnt: 610,
   },
 ];
 
 
-//  PIE CHART 
+// ========================================
+// PIE CHART
+// ========================================
+
 export const PieChartdata = [
-  { name: "Group A", value: 400 },
-  { name: "Group B", value: 300 },
-  { name: "Group C", value: 300 },
-  { name: "Group D", value: 250 },
-  { name: "Group E", value: 220 },
-  { name: "Group F", value: 150 },
-  { name: "Group G", value: 270 },
-  { name: "Group H", value: 320 },
+  {
+    name: "Development",
+    value: 320,
+  },
+  {
+    name: "Design",
+    value: 180,
+  },
+  {
+    name: "Marketing",
+    value: 140,
+  },
+  {
+    name: "Sales",
+    value: 120,
+  },
+  {
+    name: "Support",
+    value: 95,
+  },
+  {
+    name: "Testing",
+    value: 85,
+  },
 ];
 
 export const PieChartdataCOLORS = [
-  "#0088FE", // Blue
-  "#155E85", // Dark Blue
-  "#22C7D6", // Aqua  
-  "#64748B", // Gray
-  "#00C49F", // Green
-  "#075985", // Deep Blue
-  "#67E8F9", // Light Aqua
-  "#1DD1A1", // Bright Green
+  "#0088FE",
+  "#155E85",
+  "#22C7D6",
+  "#64748B",
+  "#00C49F",
+  "#075985",
 ];
 
-// RADAR CHART 
+
+// ========================================
+// RADAR CHART
+// ========================================
+
 export const RadarChartdata = [
- {
+  {
     subject: "React",
-    Frontend: 90,
-    Backend: 60,
-    Database: 50,
-    DevOps: 40,
-    Testing: 75,
-    Security: 55,
+    Frontend: 95,
+    Backend: 62,
+    Database: 48,
+    DevOps: 42,
+    Testing: 82,
+    Security: 58,
   },
   {
     subject: "TypeScript",
-    Frontend: 85,
-    Backend: 70,
-    Database: 55,
-    DevOps: 45,
-    Testing: 80,
-    Security: 60,
-  },
-  {
-    subject: "JavaScript",
-    Frontend: 90,
-    Backend: 75,
-    Database: 60,
-    DevOps: 50,
-    Testing: 85,
+    Frontend: 91,
+    Backend: 72,
+    Database: 58,
+    DevOps: 48,
+    Testing: 88,
     Security: 65,
   },
   {
+    subject: "JavaScript",
+    Frontend: 94,
+    Backend: 78,
+    Database: 64,
+    DevOps: 55,
+    Testing: 86,
+    Security: 68,
+  },
+  {
     subject: "CSS",
-    Frontend: 80,
-    Backend: 40,
-    Database: 30,
-    DevOps: 35,
-    Testing: 70,
-    Security: 45,
+    Frontend: 88,
+    Backend: 42,
+    Database: 32,
+    DevOps: 38,
+    Testing: 72,
+    Security: 48,
   },
   {
     subject: "Tailwind",
-    Frontend: 85,
-    Backend: 35,
-    Database: 25,
-    DevOps: 30,
-    Testing: 75,
-    Security: 40,
+    Frontend: 93,
+    Backend: 38,
+    Database: 28,
+    DevOps: 35,
+    Testing: 78,
+    Security: 45,
   },
   {
     subject: "Node.js",
-    Frontend: 55,
-    Backend: 90,
-    Database: 65,
-    DevOps: 70,
-    Testing: 80,
-    Security: 75,
+    Frontend: 58,
+    Backend: 94,
+    Database: 72,
+    DevOps: 78,
+    Testing: 84,
+    Security: 76,
   },
   {
     subject: "Express",
-    Frontend: 50,
-    Backend: 85,
-    Database: 60,
-    DevOps: 65,
-    Testing: 75,
-    Security: 70,
+    Frontend: 52,
+    Backend: 89,
+    Database: 68,
+    DevOps: 72,
+    Testing: 79,
+    Security: 73,
   },
   {
     subject: "PostgreSQL",
-    Frontend: 35,
-    Backend: 65,
-    Database: 95,
-    DevOps: 55,
-    Testing: 70,
-    Security: 80,
+    Frontend: 34,
+    Backend: 68,
+    Database: 96,
+    DevOps: 62,
+    Testing: 74,
+    Security: 84,
   },
   {
     subject: "Prisma",
-    Frontend: 40,
-    Backend: 80,
-    Database: 90,
-    DevOps: 50,
-    Testing: 75,
-    Security: 70,
+    Frontend: 42,
+    Backend: 86,
+    Database: 92,
+    DevOps: 58,
+    Testing: 78,
+    Security: 72,
   },
   {
     subject: "Docker",
-    Frontend: 30,
-    Backend: 65,
-    Database: 55,
-    DevOps: 95,
-    Testing: 80,
-    Security: 85,
+    Frontend: 32,
+    Backend: 72,
+    Database: 58,
+    DevOps: 96,
+    Testing: 86,
+    Security: 90,
   },
 ];

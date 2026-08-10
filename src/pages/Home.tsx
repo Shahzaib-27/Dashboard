@@ -11,11 +11,13 @@ import { Clock } from "../components/clock";
 
 const Dashboard = () => {
   return (
+    
     <div className="w-full p-4 mt-5 space-y-4">
 
       {/* Clock */}
-      <div className="w-full mb-10">
+      <div className="w-full mb-10 grid grid-cols-1 gap-4 lg:grid-cols-2">
         <Clock />
+        <Calendar />
       </div>
 
       {/* Tickets Overview */}
@@ -43,7 +45,7 @@ const Dashboard = () => {
 
       {/* Pie + Calendar */}
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 ">
-        <Calendar />
+        {/* <Calendar /> */}
       </div>
 
     </div>
